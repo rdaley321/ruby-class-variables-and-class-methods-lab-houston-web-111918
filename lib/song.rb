@@ -18,6 +18,14 @@ class Song
     @@count
   end
   
+  def self.artists
+    @@artists
+  end
+  
+  def self.genres
+    @@genres
+  end
+  
   def self.genre_count
     hash = Hash.new
     @@genres.each do |item|
