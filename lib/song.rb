@@ -27,6 +27,7 @@ class Song
         hash[item] = 1
       end
     end
+    hash
   end
   
 end
